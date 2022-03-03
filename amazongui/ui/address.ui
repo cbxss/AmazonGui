@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Address</class>
+ <widget class="QDialog" name="Address">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="0" colspan="3">
+    <widget class="QLabel" name="AddressLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Address</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <widget class="QLineEdit" name="zipLine"/>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QLineEdit" name="nameLine"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLineEdit" name="cityLine"/>
+   </item>
+   <item row="5" column="0" colspan="3">
+    <widget class="QLineEdit" name="phoneLine"/>
+   </item>
+   <item row="8" column="0" colspan="3">
+    <widget class="QLineEdit" name="addressLine2">
+     <property name="placeholderText">
+      <string>Apt, suite, unit, building, floor, etc.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="3">
+    <widget class="QLineEdit" name="addressLine1">
+     <property name="placeholderText">
+      <string>Street address or P.O. Box</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="cityLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>City</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLabel" name="stateLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>State</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="countryLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Country/Region</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QLabel" name="phoneLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Phone number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="zipLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ZIP Code</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QLineEdit" name="countryLine">
+     <property name="text">
+      <string>United States</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0" colspan="3">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QLabel" name="nameLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Full name (First and Last name)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QComboBox" name="stateBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <item>
+      <property name="text">
+       <string>Alabama</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Alaska</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>American Samoa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Arizona</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Arkansas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>California</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colorado</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Connecticut</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Delaware</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>District of Columbia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Federated States of Micronesia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Floridia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Georgia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Guam</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hawaii</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Idaho</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Illinois</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indiana</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Iowa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kansas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kentucky</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Louisiana</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Maine</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Marshall Islands</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Maryland</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Massachusetts</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Michigan</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Minnesota</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mississippi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Missouri</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Montana</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nebraska</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nevada</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Hampshire</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Jersey</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New Mexico</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>New York</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>North Carolina</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>North Dakota</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Northern Mariana Islands</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ohio</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Oklahoma</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Oregon</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Palau</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pennsylvania</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Puerto Rico</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rhode Island</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South Carolina</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>South Dakota</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tennessee</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Texas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Utah</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vermont</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Virgin Islands</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Virginia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Washington</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="TAKE ME HOME" extracomment="TAKE ME HOME">West Virginia</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Wisconsin</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Wyoming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Armed Forces - AA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Armed Forces - AE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Armed Forces - AP</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="12" column="0" colspan="3">
+    <widget class="QCheckBox" name="defaultBox">
+     <property name="text">
+      <string>Make this my default address</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>countryLine</tabstop>
+  <tabstop>nameLine</tabstop>
+  <tabstop>phoneLine</tabstop>
+  <tabstop>addressLine1</tabstop>
+  <tabstop>addressLine2</tabstop>
+  <tabstop>cityLine</tabstop>
+  <tabstop>stateBox</tabstop>
+  <tabstop>zipLine</tabstop>
+  <tabstop>defaultBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Address</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Address</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

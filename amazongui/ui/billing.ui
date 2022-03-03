@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Billing</class>
+ <widget class="QDialog" name="Billing">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="cardLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Card number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="cardLine"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="nameLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Name on card</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="nameLine"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="expirationLabel">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Expiration date</string>
+     </property>
+    </widget>
+   </item>
+
+   <item row="2" column="1">
+    <widget class="QComboBox" name="monthBox">
+     <item>
+      <property name="text">
+       <string comment="January" extracomment="January">01</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="Febuary" extracomment="Febuary">02</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="March" extracomment="March">03</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="April" extracomment="April">04</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="May" extracomment="May">05</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="June" extracomment="June">06</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="July" extracomment="July">07</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="August" extracomment="August">08</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="September" extracomment="September">09</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="October" extracomment="October">10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="November" extracomment="November">11</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string comment="December" extracomment="December">12</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QComboBox" name="yearBox">
+     <item>
+      <property name="text">
+       <string>2022</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2023</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2024</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2025</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2026</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2027</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2028</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2029</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2030</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2031</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2032</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2033</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2034</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2035</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2036</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2037</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2038</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2039</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2040</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2041</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2042</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+    <item row="3" column="0" colspan="3">
+    <widget class="QCheckBox" name="defaultCardBox">
+     <property name="text">
+      <string>Make this my default address</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>cardLine</tabstop>
+  <tabstop>nameLine</tabstop>
+  <tabstop>monthBox</tabstop>
+  <tabstop>yearBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Billing</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Billing</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
